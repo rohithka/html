@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text-block">
+        <h2>Hey<h2>
+        <p>Iam Sundar Pichai
+        </p>
+      </div>
+    </div>
+    <div class="navbar">
+        <a href="https://en.wikipedia.org/wiki/Sundar_Pichai">About Me</a>
+        <a href="https://twitter.com/sundarpichai">Twitter</a>
+        <a href="https://www.instagram.com/sundarpichai/">Instagram</a>
+        <a href="https://www.facebook.com/sundar.pichai">Facebook</a>
+        <a href="https://blog.google/perspectives/sundar-pichai/">My Blog</a>
+        <a href="https://careers.google.com/" class="right">Grow WIth Google</a>
+       
+      </div>
+    <style>
+        body {
+          background-image: url('wp4056736-sundar-pichai-wallpapers.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        .container {
+        position: relative;
+        font-family: Arial;
+}
+
+        .text-block {
+         position: absolute;
+         bottom: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+        .navbar {
+        overflow: hidden; 
+        background-color: rgb(255, 254, 248); 
+        }
+
+       
+        .navbar a {
+        float: left; 
+        display: block; 
+        color: rgb(10, 10, 10); 
+        text-align: center; 
+        padding: 14px 20px; 
+        text-decoration: none; 
+        }
+
+        .navbar a.right {
+        float: right; 
+        }
+
+        .navbar a:hover {
+        background-color: rgb(77, 233, 16); 
+        color: black; 
+        }
+        video {
+        margin-left: 0%;
+        margin-right: 0%;
+        display: block;
+}
+        </style>
+    <!-- <video controls height="150" width="150">
+    <source src="The future of Google with Sundar Pichai.mp4">
+    
+}
+</video> -->
+
+       
+
+</body>
+</html>
